@@ -8,12 +8,12 @@ modelBuilder.Entity<Author>().HasData(
 
 // Seed data for Books
 modelBuilder.Entity<Book>().HasData(
-    new Book { Id = 1, Title = "The Invisible Man", AuthorId = 1 },
-    new Book { Id = 2, Title = "The Time Machine", AuthorId = 1 },
-    new Book { Id = 3, Title = "Lord of the Flies", AuthorId = 2 },
-    new Book { Id = 4, Title = "The Tell-Tale Heart", AuthorId = 3 },
-    new Book { Id = 5, Title = "The Raven and Other Poems", AuthorId = 3 },
-    new Book { Id = 6, Title = "The Foundation", AuthorId = 4 }
+    new Book { Id = 1, Title = "The Invisible Man", AuthorId = 1, Year = 1897 },
+    new Book { Id = 2, Title = "The Time Machine", AuthorId = 1, Year = 1895 },
+    new Book { Id = 3, Title = "Lord of the Flies", AuthorId = 2, Year = 1954 },
+    new Book { Id = 4, Title = "The Tell-Tale Heart", AuthorId = 3, Year = 2002 },
+    new Book { Id = 5, Title = "The Raven and Other Poems", AuthorId = 3, Year = 2006 },
+    new Book { Id = 6, Title = "The Foundation", AuthorId = 4, Year = 1942 }
 );
 
 // Seed data for Bookstores
